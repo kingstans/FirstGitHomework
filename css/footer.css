@@ -1,0 +1,46 @@
+.footer {
+	position: relative;
+	width: 100%;
+	margin: 10px 0 0 0;
+	background: #c2c2c2;
+	text-align: right;
+	padding-right: 10px;
+	border-radius: 10px;
+}
+
+.footer p {
+	font-weight: bold;
+}
+
+.footer-icon {
+	position: absolute;
+	display: block;
+	top: 18px;
+    left: 5px;
+    
+}
+
+.footer-icon i {
+    display:inline-block;
+    margin: 0 10px;
+    height: 10px;
+    font-size: 20px;
+    color: #686767;
+}
+
+.footer-icon i:hover {
+	color: #979797;
+}
+
+@media (max-width: 768px) {
+	.footer {
+		display: block;
+		width: auto;
+		position: relative;
+		}
+
+	.footer .footer-icon {
+		position: absolute;
+		margin: -16px 0;
+	}
+}

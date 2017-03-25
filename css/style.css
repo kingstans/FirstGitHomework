@@ -1,0 +1,26 @@
+@import url(header.css);
+@import url(middle.css);
+@import url(footer.css);
+@import url(fonts.css);
+@import url(font-awesome.css);
+html {
+	line-height: 1.5;
+}
+
+h2 {
+	font-size: 20px;
+}
+
+body {
+	font-family: 'Baloo', sans-serif;
+}
+ 
+.wrapper {
+	display: flex;
+	flex-flow: row wrap;
+}
+
+@media (max-width: 768px) {
+	.wrapper {
+		display: block;
+	}
